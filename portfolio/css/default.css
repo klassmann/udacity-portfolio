@@ -3,15 +3,29 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 960px;
+}
 
 header {
-    background-color: red;
+    width: 100%;
+    /* background-color: bisque; */
     display: flex;
     border-bottom: 4px solid #7d97ad;
 }
 
+
 .portfolio-logo {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     width: 50%;
 }
 
@@ -22,22 +36,87 @@ header {
 
 .portfolio-title h1 {
     font-size: 4em;
-    margin: 5px;
     font-weight: 100;
+    margin: 5px;
     text-transform: uppercase;
 }
 
 .portfolio-title h2 {
     font-size: 1.5em;
-    margin: 0;
-    font-weight: 100;
+    font-weight: 400;
+    margin: 5px;    
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 320px) {
+
+    header {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .portfolio-logo {
+        /* background-color: blanchedalmond; */
+        width: 100%;
+    }
+    
+    .portfolio-title {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .portfolio-title h1 {
+        font-size: 2em;
+        font-weight: 100;
+        margin: 5px;
+        text-transform: uppercase;
+    }
+    
+    .portfolio-title h2 {
+        font-size: 1.2em;
+        font-weight: 400;
+        margin: 5px;
+        text-transform: uppercase;
+    }
+}
+
+
 main {
-    background-color: azure;
+    /* background-color: azure; */
+    margin: 20px 0;
+}
+
+.main-image {
+    /* height: 600px; */
+    width: 100%;
 }
 
 footer {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-work-title {
+    width: 100%;
+}
+
+.work-list {
+    height: 300px;
+    vertical-align: bottom;
+}
+
+
+.work {
+ width: 33%;
+}
+
+.work img {
+    width: 100%;
+}
+
+.featured-work h3 {
+    color: #7d97ad;
+    font-size: 1.4em;
+    text-transform: uppercase;
 }
