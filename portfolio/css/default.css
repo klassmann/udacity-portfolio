@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: red;
+    display: flex;
+    border-bottom: 4px solid #7d97ad;
+}
+
+.portfolio-logo {
+    background-color: blanchedalmond;
+    width: 50%;
+}
+
+.portfolio-title {
+    width: 50%;
+    text-align: right;
+}
+
+.portfolio-title h1 {
+    font-size: 4em;
+    margin: 5px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.portfolio-title h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: azure;
+}
+
+footer {
+    background-color: aquamarine;
+}
