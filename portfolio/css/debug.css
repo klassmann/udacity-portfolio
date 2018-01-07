@@ -1,0 +1,39 @@
+
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: aquamarine;
+    outline: 1px solid red;
+}
+
+main {
+    background-color: antiquewhite;
+    outline: 1px solid red;
+}
+
+section {
+    background-color: blueviolet;
+    outline: 3px dotted blue;
+}
+
+footer {
+    background-color: aquamarine;
+    outline: 1px solid red;
+}
+
+h1 {
+    background-color: burlywood;
+    outline: 1px solid green;
+}
+
+h2 {
+    background-color: cadetblue;
+    outline: 1px solid yellow;
+}
+
+div {
+    background-color: chartreuse;
+}

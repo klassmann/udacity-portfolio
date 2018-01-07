@@ -4,119 +4,101 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     color: #333;
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     justify-content: center;
 }
-
 
 .container {
     width: 960px;
 }
 
 header {
-    width: 100%;
     /* background-color: bisque; */
-    display: flex;
+    margin-top: 30px;
+    padding: 10px 0;
     border-bottom: 4px solid #7d97ad;
+    display: flex;
+    width: 100%;
 }
 
-
 .portfolio-logo {
-    /* background-color: blanchedalmond; */
-    width: 50%;
+    width: 25%;
+    padding: 10px;
+}
+
+.portfolio-logo img {
+    width: 96px;
 }
 
 .portfolio-title {
-    width: 50%;
     text-align: right;
+    width: 75%;
 }
 
 .portfolio-title h1 {
     font-size: 4em;
     font-weight: 100;
-    margin: 5px;
+    margin: 0;
     text-transform: uppercase;
 }
 
 .portfolio-title h2 {
     font-size: 1.5em;
     font-weight: 400;
-    margin: 5px;    
+    margin: 0;    
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 320px) {
-
-    header {
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .portfolio-logo {
-        /* background-color: blanchedalmond; */
-        width: 100%;
-    }
-    
-    .portfolio-title {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .portfolio-title h1 {
-        font-size: 2em;
-        font-weight: 100;
-        margin: 5px;
-        text-transform: uppercase;
-    }
-    
-    .portfolio-title h2 {
-        font-size: 1.2em;
-        font-weight: 400;
-        margin: 5px;
-        text-transform: uppercase;
-    }
-}
-
-
 main {
-    /* background-color: azure; */
     margin: 20px 0;
 }
 
 .main-image {
-    /* height: 600px; */
+    background-clip: content-box;
+    height: 400px;
     width: 100%;
 }
 
 footer {
-    /* background-color: aquamarine; */
     display: flex;
-    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    /* flex-wrap: wrap; */
 }
 
-.featured-work-title {
-    width: 100%;
-}
 
 .work-list {
     height: 300px;
-    vertical-align: bottom;
 }
 
-
 .work {
- width: 33%;
+    padding: 10px;
+    padding-top: 58px;
+    text-align: center;
+    width: 33.333%;
+}
+
+.featured-work {
+    padding-top: 10px;
 }
 
 .work img {
     width: 100%;
 }
 
-.featured-work h3 {
-    color: #7d97ad;
-    font-size: 1.4em;
+.work-title {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 5px;
     text-transform: uppercase;
+}
+
+.featured-title {
+    color: #7d97ad;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 5px;
 }
