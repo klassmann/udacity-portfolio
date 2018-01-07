@@ -47,7 +47,7 @@ header {
 
 .portfolio-title h2 {
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 700;
     margin: 0;    
     text-transform: uppercase;
 }
@@ -89,8 +89,17 @@ footer {
     width: 100%;
 }
 
+.work-link {
+    margin: 0;
+}
+
+.work a {
+    color: #333;
+    font-weight: 300;
+}
+
 .work-title {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 400;
     margin: 5px;
     text-transform: uppercase;
@@ -101,4 +110,5 @@ footer {
     font-size: 2em;
     font-weight: 300;
     margin: 5px;
+    text-align: left;
 }
