@@ -4,7 +4,7 @@
 }
 
 body {
-    color: #333;
+    color: #2d3c49;
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -42,6 +42,15 @@ header {
     font-weight: 100;
     margin: 0;
     text-transform: uppercase;
+}
+
+.portfolio-title h1 a {
+    color: #2d3c49;
+    text-decoration: none;
+}
+
+.portfolio-title h1 a:hover {
+    color: #02b3e4;
 }
 
 .portfolio-title h2 {
@@ -92,7 +101,7 @@ footer {
     margin: 0;
 }
 
-.work a {
+.work-link a {
     color: #333;
     font-weight: 300;
 }
