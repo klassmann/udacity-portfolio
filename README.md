@@ -9,13 +9,13 @@ The only requirement is a browser to open the portfolio/index.html.
 ## Responsive Layout
 The layout was tested in following devices dimensions:
 
-[X] - Desktop (MacOS X with Chrome)
-[X] - iPad
-[X] - iPad Pro
-[X] - Google Nexus 5X
-[X] - iPhone 8
-[X] - iPhone 8 Plus
-[X] - iPhone X
+- [X] - Desktop (MacOS X with Chrome)
+- [X] - iPad
+- [X] - iPad Pro
+- [X] - Google Nexus 5X
+- [X] - iPhone 8
+- [X] - iPhone 8 Plus
+- [X] - iPhone X
 
 
 ## License
