@@ -17,6 +17,8 @@ The layout was tested in following devices dimensions:
 - [X] - iPhone 8 Plus
 - [X] - iPhone X
 
+## Extra Information
+The file `portfolio/css/debug.css` is used for debugging the box layout.
 
 ## License
 You can't use this project as your project for Udacity, but you can use for study purposes if you want.
