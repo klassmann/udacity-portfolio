@@ -2,7 +2,7 @@
 This project is a static portfolio website made with HTML and CSS. The layout is responsive, and the style was made based on the project mockup from scratch. It is part of the Full-Stack Nano-Degree course.
 
 
-## Requirements
+## Usage
 The only requirement is a browser to open the portfolio/index.html.
 
 
